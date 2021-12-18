@@ -1,0 +1,176 @@
+*{margin: 0;padding: 0}
+
+span.title-card-stt-date {
+    font-family: revert;
+    background: #ff6a00;
+    padding: 0 9px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+span.title-card-stt {
+    font-family: revert;
+    background: #3e3e3e;
+    padding: 0 9px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+p.dong-thongtin {
+    margin: 0;
+}
+
+.commit-note {
+    /* position: absolute; */
+    /* top: 2px; */
+    /* right: 2px; */
+    background: #ffc107;
+    border-radius: 8px;
+    padding: 0 6px;
+    border: 1px solid #fd0;
+    text-align: center;
+    color: #fff;
+}
+
+.note-div {
+    position: relative;
+}
+
+textarea.textnote {
+    width: 100%;
+}
+
+li.nav-item.dropdown.active {
+    list-style: none;
+}
+
+.one-card {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pad-10 {
+    background: #ebecf0;
+    border-radius: 5px;
+}
+
+.bt7 {
+    background: #919191 !important;
+}
+
+.bt6 {
+    background: #2e8364 !important;
+}
+
+.bt5 {
+    background: #fed797 !important;
+}
+
+.bt4 {
+    background: #aa7b6f !important;
+}
+
+.bt3 {
+    background: #9c8cdb !important;
+}
+
+.bt2 {
+    background: #e17e76 !important;
+}
+
+.select-state {
+    position: relative;
+}
+
+.list-bt {
+    /* display: block;
+    flex-direction: column;
+    width: 100px;
+    position: absolute;
+    visibility: hidden; */
+
+}
+
+.dropdown-menu.list-bt.show {
+    display: flex;
+    flex-direction: column;
+    /* width: 80px !important; */
+}
+
+button.top-top {
+    padding: 3px;
+    color: #fff;
+    border-radius: 8px;
+    border: 0;
+    font-family: monospace;
+    margin-top: 1px;
+}
+
+.btclick {
+    background: #7a7a7a;
+    border-radius: 100px;
+    width: 25px;
+    height: 25px;
+}
+
+button.top-top.bt1.top1btn:focus +.list-bt {
+    visibility: visible;
+}
+
+
+
+.bt1 {
+    background: #b5ddd1 !important;
+}
+
+button.top-top.bt1.top1btn.active +list-bt {
+    visibility: visible;
+}
+.loading {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    background: #ffffffc4;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-i7 {
+    text-align: center;
+    font-family: unset;
+    font-size: 1.3rem;
+}
+
+img.anhbia {
+    background-size: cover;
+    width: 100%;
+}
+
+.xx {
+    background: #afafaf;
+}
+.thongtin{
+    background: #ff2;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 317px;
+}
+.col-1i7 {
+    -ms-flex: 14.28571428%;
+    flex: 0 0 14.28571428%;
+    max-width: 14.28571428%;
+    padding: 5px;
+    /* background: #ebecf0; */
+    border-radius: 4px;
+}
+.backgroundall{
+    background :url(https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2400x1600/03d6df61b1326c07920abba77c7da1dc/photo-1636958714700-51c16720bc4e.jpg);
+    height: 100vh;
+    /* width: 100%; */
+    background-size: cover;
+}
