@@ -3,6 +3,7 @@ import * as constants from "./constants";
 import axios from 'axios';
 import Loading from './Loading';
 import NoteCard from './NoteCard';
+import ThongTinCard from './thongTinCard';
 
 
 function App() {
@@ -99,25 +100,8 @@ function App() {
         </div >
         <div className="container">
           <div className="row">
-            <div className="col-12 thongtin">
-              thông tin
-              <div className="col-6">
-                <p class="dong-thongtin"><span class="title-dong">id</span>:<span class="noidung-dong"></span></p>
-                <p class="dong-thongtin"><span class="title-dong">fullname</span>:<span class="noidung-dong"></span></p>
-                <p class="dong-thongtin"><span class="title-dong">Sdt</span>:<span class="noidung-dong"></span></p>
-                <p class="dong-thongtin"><span class="title-dong">address</span>:<span class="noidung-dong"></span></p>
-                <p class="dong-thongtin"><span class="title-dong">date</span>:<span class="noidung-dong"></span></p>
-                <p class="dong-thongtin"><span class="title-dong">link</span>:<span class="noidung-dong"></span></p>
-                <p class="dong-thongtin"><span class="title-dong">note</span>:<span class="noidung-dong"></span></p>
-                <p class="dong-thongtin"><span class="title-dong">status</span>:<span class="noidung-dong"></span></p>
-                <p class="dong-thongtin"><span class="title-dong">xã phường</span>:<span class="noidung-dong"></span></p>
-                <p class="dong-thongtin"><span class="title-dong">quận huyện</span>:<span class="noidung-dong"></span></p>
-                <p class="dong-thongtin"><span class="title-dong">tỉnh</span>:<span class="noidung-dong"></span></p>
-                <p class="dong-thongtin"><span class="title-dong">thanh toán</span>:<span class="noidung-dong"></span></p>
-              </div>
-              <div className="col-6">
-              </div>
-            </div>
+            {activeCard !== null ? <ThongTinCard activeCard={activeCard} /> : ""}
+
           </div>
         </div>
       </div >
